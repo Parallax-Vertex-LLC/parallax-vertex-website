@@ -1,25 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="416.85308837890625 284 766.2937622070312 329.2000427246094" fill="none">
   <g fill="#00B8C8">
-
     <circle cx="800" cy="405" r="10"/>
-
     <polygon points="801.5,403 686,304 674,316 798.5,407"/>
-
     <polygon points="799,403 565,284 555,296 797,406"/>
-
     <polygon points="802,403.5 1024,329 1025,341 798,409.5"/>
-
     <polygon points="803,405 846,525 834,528 797,401"/>
-
   </g>
-
-  <text x="800" y="600"
-        text-anchor="middle"
-        font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-weight="500"
-        font-size="52"
-        letter-spacing="12"
-        fill="#00B8C8">
+  <text x="800" y="600" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="52" letter-spacing="12" fill="#00B8C8">
     PARALLAX VERTEX LLC
   </text>
 </svg>
