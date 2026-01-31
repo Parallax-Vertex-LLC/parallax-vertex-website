@@ -47,7 +47,7 @@ function App() {
         {/* Hero Text */}
         <div className="text-center space-y-4 max-w-2xl px-4">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
-            Building software because <span className="text-gradient">I enjoy it</span>.
+            Building software because <br /><span className="text-gradient">I enjoy it</span>.
           </h1>
           <p className="text-slate-400 text-lg md:text-xl">
             Crafting premium digital experiences & robust applications.
