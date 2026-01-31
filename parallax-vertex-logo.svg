@@ -1,15 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1600 1600" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="542 284 500 264" fill="none">
   <g fill="#00B8C8">
-
     <circle cx="800" cy="405" r="10"/>
-
     <polygon points="801.5,403 686,304 674,316 798.5,407"/>
-
     <polygon points="799,403 565,284 555,296 797,406"/>
-
     <polygon points="802,403.5 1024,329 1025,341 798,409.5"/>
-
     <polygon points="803,405 846,525 834,528 797,401"/>
-
   </g>
 </svg>
