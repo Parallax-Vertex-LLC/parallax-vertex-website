@@ -55,7 +55,7 @@ function App() {
         </div>
 
         {/* Clients Section */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
           <a href="https://wanderlustarchers.com" target="_blank" rel="noopener noreferrer" className="glass-card group flex flex-col items-center text-center space-y-3 cursor-pointer">
             <div className="p-3 rounded-full bg-pink-500/20 text-pink-400 group-hover:scale-110 transition-transform duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
@@ -74,6 +74,16 @@ function App() {
             </div>
             <h2 className="text-xl font-semibold text-white group-hover:text-cyan-300 transition-colors">Precision Target Tracker</h2>
             <p className="text-sm text-slate-400">Advanced Archery Analytics</p>
+          </a>
+
+          <a href="https://pulseintervaltimer.com" target="_blank" rel="noopener noreferrer" className="glass-card group flex flex-col items-center text-center space-y-3 cursor-pointer">
+            <div className="p-3 rounded-full bg-emerald-500/20 text-emerald-400 group-hover:scale-110 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M22 12h-4l-3 9L9 3l-3 9H2" />
+              </svg>
+            </div>
+            <h2 className="text-xl font-semibold text-white group-hover:text-emerald-300 transition-colors">Pulse Interval Timer</h2>
+            <p className="text-sm text-slate-400">Customizable Workout Timers</p>
           </a>
         </div>
 
