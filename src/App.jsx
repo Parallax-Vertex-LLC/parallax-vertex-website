@@ -20,7 +20,7 @@ function App() {
   }, [])
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center p-4 relative overflow-hidden">
 
       {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -35,7 +35,7 @@ function App() {
       </div>
 
       <main
-        className="max-w-4xl w-full flex flex-col items-center space-y-12 z-10 transition-transform duration-100 ease-out"
+        className="max-w-4xl w-full flex-1 flex flex-col items-center justify-center space-y-12 py-8 z-10 transition-transform duration-100 ease-out"
         style={{ transform: `translate(${mousePos.x * 10}px, ${mousePos.y * 10}px)` }}
       >
 
@@ -97,7 +97,7 @@ function App() {
 
       </main>
 
-      <footer className="absolute bottom-4 text-xs text-slate-600">
+      <footer className="text-xs text-slate-600 py-4 text-center z-10">
         &copy; {new Date().getFullYear()} Parallax Vertex LLC. All rights reserved.
       </footer>
     </div>
