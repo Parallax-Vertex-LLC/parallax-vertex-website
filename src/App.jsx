@@ -55,7 +55,17 @@ function App() {
         </div>
 
         {/* Clients Section */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+          <a href="https://fletchedco.com" target="_blank" rel="noopener noreferrer" className="glass-card group flex flex-col items-center text-center space-y-3 cursor-pointer">
+            <div className="p-3 rounded-full bg-amber-500/20 text-amber-400 group-hover:scale-110 transition-transform duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              </svg>
+            </div>
+            <h2 className="text-xl font-semibold text-white group-hover:text-amber-300 transition-colors">Fletched</h2>
+            <p className="text-sm text-slate-400">Archery Ballistics &amp; Precision</p>
+          </a>
+
           <a href="https://wanderlustarchers.com" target="_blank" rel="noopener noreferrer" className="glass-card group flex flex-col items-center text-center space-y-3 cursor-pointer">
             <div className="p-3 rounded-full bg-pink-500/20 text-pink-400 group-hover:scale-110 transition-transform duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
